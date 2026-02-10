@@ -1,0 +1,1 @@
+Imaginez que la sécurité d'Orange décide demain qu'il faut ajouter un agent de monitoring sur TOUTES les VMs. Avec la méthode du matin, vous modifiez 500 fichiers. Avec les modules, vous modifiez un seul fichier (modules/simple-vm/main.tf), vous faites terraform apply, et les 500 VMs sont mises à jour. C'est ça, la puissance de l'échelle.
