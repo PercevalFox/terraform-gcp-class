@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "google" {
-  project = "terraform-orange-course"  # <--- ILS DEVRONT METTRE LEUR ID
+  project = "terraform-orange-course"  # <--- METTRE L'ID
   region  = "europe-west9"
 }
 
