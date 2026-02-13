@@ -39,3 +39,9 @@ R : "Oui, c'est la composition. Mais attention à ne pas faire des "Poupées Rus
 
 Q : Et si le Bucket du state est supprimé ? 
 R : "C'est pour ça qu'on a activé le Versioning sur le bucket à l'étape 1. On peut restaurer le fichier state d'il y a 10 minutes. Sans ça, vous êtes morts, il faut tout réimporter à la main."
+
+
+## N'OUBLIEZ PAS DE DELETE LE BUCKET : 
+```
+gsutil rm -r -l europe-west9 gs://tf-state-orange-training-NOM
+```
