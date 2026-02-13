@@ -43,5 +43,5 @@ R : "C'est pour ça qu'on a activé le Versioning sur le bucket à l'étape 1. O
 
 ## N'OUBLIEZ PAS DE DELETE LE BUCKET : 
 ```
-gsutil rm -r -l europe-west9 gs://tf-state-orange-training-NOM
+gsutil rm -r gs://tf-state-orange-training-NOM
 ```
