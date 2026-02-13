@@ -1,8 +1,16 @@
 # Ce fichier définit CE QU'EST une VM standard
-variable "project_id" {}
-variable "region" {}
-variable "vm_name" {}
-variable "subnet_id" {}
+variable "project_id" {
+  type = string
+}
+variable "region" {
+  type = string
+}
+variable "vm_name" {
+  type = string
+}
+variable "subnet_id" {
+  type = string
+}
 
 resource "google_compute_instance" "vm" {
   name         = var.vm_name
